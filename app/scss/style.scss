@@ -1,7 +1,48 @@
-* {
+body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: red;
+
+.container {
+    width: 1100px;
+    background: rgb(235, 235, 235);
+
+    .container__where-box-is {
+        height: 400px;
+        display: flex;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px solid black;
+
+        .border-on {
+            width: 400px;
+            height: 200px;
+            background: grey;
+        }
+    }
+
+    .container__where-options-are {
+        display: flex;
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+
+        .options {
+            
+            .border {
+                margin-top: 5px;
+                justify-content: space-between;
+
+                p {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
 }
+

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +8,61 @@
     <title>border-generator</title>
     <link rel="stylesheet" href="/app/css/style.css">
 </head>
+
 <body>
-    <h1>siema</h1>
+    <div class="container">
+
+
+        <div class="container__where-box-is">
+            <div class="border-on"></div>
+        </div>
+
+        <div class="container__where-options-are">
+            <div class="options">
+
+
+                <div class="border border-style">
+                    border-style:
+                    <select>
+                        <option value="dotted">dotted</option>
+                        <option value="dashed">dashed</option>
+                        <option value="solid">solid</option>
+                        <option value="double">double</option>
+                        <option value="groove">groove</option>
+                        <option value="ridge">ridge</option>
+                        <option value="inset">inset</option>
+                        <option value="outset">outset</option>
+                        <option value="none">none</option>
+                        <option value="hidden">hidden</option>
+                    </select>
+                </div>
+
+                <div class="border border-width">
+                    border-width:
+                    <input type="numer">
+                </div>
+
+                <div class="border border-color">
+                    border-color:
+                    <input type="text">
+                </div>
+
+                <div class="border border-radius">
+                    border-radius:
+                    <input type="text">
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
     <script src="/app/js/main.js"></script>
 </body>
+
 </html>
