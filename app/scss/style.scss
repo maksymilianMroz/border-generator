@@ -21,28 +21,24 @@ body {
             width: 400px;
             height: 200px;
             background: grey;
+            border: 0px solid black;
         }
     }
 
-    .container__where-options-are {
+    .container__where-options-are, .copy-border-options {
         display: flex;
         display: flexbox;
         justify-content: center;
         align-items: center;
         height: 200px;
+        border-bottom: 1px solid black;
 
         .options {
             
             .border {
                 margin-top: 5px;
-                justify-content: space-between;
-
-                p {
-                    display: inline-block;
-                }
             }
         }
     }
-
 }
 

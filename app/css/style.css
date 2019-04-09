@@ -16,15 +16,14 @@ body {
     .container .container__where-box-is .border-on {
       width: 400px;
       height: 200px;
-      background: grey; }
-  .container .container__where-options-are {
+      background: grey;
+      border: 0px solid black; }
+  .container .container__where-options-are, .container .copy-border-options {
     display: flex;
     display: flexbox;
     justify-content: center;
     align-items: center;
-    height: 200px; }
-    .container .container__where-options-are .options .border {
-      margin-top: 5px;
-      justify-content: space-between; }
-      .container .container__where-options-are .options .border p {
-        display: inline-block; }
+    height: 200px;
+    border-bottom: 1px solid black; }
+    .container .container__where-options-are .options .border, .container .copy-border-options .options .border {
+      margin-top: 5px; }
